@@ -13,10 +13,9 @@
 
 /*-----------/hero/------------*/
 #hero{
-    height: 400px;
     background-color: #212529;
-    display: flex;
-    align-items: center;
+    padding-top: 100px;
+    padding-bottom: 20px;
 }
 .heroText{
   color: #ececeb;
@@ -28,11 +27,9 @@
 .heroText>p{
     font-size: 2rem;
 }
-img{
+.row>img{
     border-radius: 50%;
-    height: 200px;
-    width: 200px;
-    margin: 10px;
+height: 200px;
 }
 
 /*-------------------------------*/
@@ -40,24 +37,53 @@ img{
 /*-----------/resume/------------*/
 #resume{
     font-size: 2rem;
-    background-color: rgb(146, 192, 231);
+    background-color: #92c0e7;
 }
 #resume>.container{
     padding-top: 20px;
+    padding-bottom: 20px;
 }
 #resume h3{
     font-family: "Oswald";
     font-size:3.5rem;
 }
+
 /*-------------------------------*/
 
 /*-----------/projects/----------*/
-
+#projects{
+    background-color: #212529;
+}
+.flexCont{
+    display: inline-flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+.pr img{
+    border: 5px solid #1a1919;
+    float: left;
+    width: 50%;
+    margin-right: 10px;
+}
+.pr h2, .pr p{
+    color:#ececeb;
+}
+.pr h2{
+    font-size:3rem;
+}
+.pr p{
+    font-size:2rem;
+}
+.pr{
+    margin-top: 20px;
+}
 /*-------------------------------*/
+
 /*-----------/about me/----------*/
 /*-------------------------------*/
 
-
+/*-----------/Contact/----------*/
+/*-------------------------------*/
 
 
 
