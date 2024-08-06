@@ -4,6 +4,7 @@
     width: 100%;
     font-family: sans-serif;
 }
+
 /*-----------/navbar/------------*/
 #Nav{
     position: fixed;
@@ -11,46 +12,49 @@
 /*-------------------------------*/
 
 /*-----------/hero/------------*/
-
-#hero>img{
-    position: relative;
-    z-index: -1;
+#hero{
+    height: 400px;
+    background-color: #212529;
+    display: flex;
+    align-items: center;
 }
 .heroText{
-    position: absolute;
-    top:430px;
-    left: 25%;
+  color: #ececeb;
 }
 .heroText>h1{
-    font-family: "Oswald", sans-serif;
+    font-family: "Oswald" ;
     font-size: 5rem;
 }
 .heroText>p{
-    font-family: "Oswald", sans-serif;
     font-size: 2rem;
-    width: 450px;
 }
-@supports (animation-timeline: view()) {
-    @keyframes fade-in {
-      from { opacity: 0 }
-      to   { opacity: 3 }
-    }
-    .heroText>h1,.heroText>p{
-        animation: fade-in;
-        animation-timeline: scroll();
-    }
+img{
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    margin: 10px;
 }
+
 /*-------------------------------*/
 
 /*-----------/resume/------------*/
 #resume{
-    height: 800px;
+    font-size: 2rem;
+    background-color: rgb(146, 192, 231);
 }
-
-
+#resume>.container{
+    padding-top: 20px;
+}
+#resume h3{
+    font-family: "Oswald";
+    font-size:3.5rem;
+}
 /*-------------------------------*/
 
-/*-----------/projects/------------*/
+/*-----------/projects/----------*/
+
+/*-------------------------------*/
+/*-----------/about me/----------*/
 /*-------------------------------*/
 
 
