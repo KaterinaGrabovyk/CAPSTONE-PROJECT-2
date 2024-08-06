@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    font-family: sans-serif;
+}
+/*-----------/navbar/------------*/
+#Nav{
+    position: fixed;
+}
+/*-------------------------------*/
+
+/*-----------/hero/------------*/
+
+#hero>img{
+    position: relative;
+    z-index: -1;
+}
+.heroText{
+    position: absolute;
+    top:430px;
+    left: 25%;
+}
+.heroText>h1{
+    font-family: "Oswald", sans-serif;
+    font-size: 5rem;
+}
+.heroText>p{
+    font-family: "Oswald", sans-serif;
+    font-size: 2rem;
+    width: 450px;
+}
+@supports (animation-timeline: view()) {
+    @keyframes fade-in {
+      from { opacity: 0 }
+      to   { opacity: 3 }
+    }
+    .heroText>h1,.heroText>p{
+        animation: fade-in;
+        animation-timeline: scroll();
+    }
+}
+/*-------------------------------*/
+
+/*-----------/resume/------------*/
+#resume{
+    height: 800px;
+}
+
+
+/*-------------------------------*/
+
+/*-----------/projects/------------*/
+/*-------------------------------*/
+
+
+
+
+
+
+
+
+
+
+
